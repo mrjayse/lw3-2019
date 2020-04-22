@@ -8,7 +8,7 @@ body.dark {
   color: white;
 }
 
-#month {
+.month {
     font-size: 32px;
     margin: 10px 0px 0px 10px;
 }
@@ -17,16 +17,16 @@ body.dark {
     color: crimson;
 }
 
-#weekdays {
+.weekdays {
     margin: 0;
     padding: 10px 0px 0px 10px;
 }
 
-#weekdays .weekday {
+.weekdays .weekday {
     margin-right: 7px;
 }
 
-#weekdays li {
+.weekdays li {
     display: inline-block;
     border: 1px solid transparent;
     margin-right: -1px;
@@ -47,12 +47,12 @@ body.dark {
     color: grey;
 }
 
-#days {
+.days {
     margin: 0;
     padding: 5px 0px 0px 10px;
 }
 
-#days li {
+.days li {
     display: inline-block;
     border: 1px solid lightgray;
     width: 10%;
@@ -63,7 +63,7 @@ body.dark {
     margin-right: -1px;
 }
 
-#days .day {
+.days .day {
     float: right;
     margin-top: 5px;
     margin-right: 5px;
@@ -72,19 +72,19 @@ body.dark {
     padding-top: 5px;
 }
 
-#days .active {
+.days .active {
     background-color: crimson;
     border-radius: 50%;
     height: 24px;
     color: white;
 }
 
-#days .not-available {
+.days .not-available {
     color: grey;
     opacity: 0.7;
 }
 
-#days .icon {
+.days .icon {
     margin: 10px 0px 0px 8px;
     float: left;
     background-image: url("../icons/holiday-icon.png");
@@ -93,7 +93,7 @@ body.dark {
     width: 20px;
 }
 
-#days .caption {
+.days .caption {
     display: none;
     background-color: rgba(51,51,51,0.6);
     position: absolute;
@@ -107,7 +107,7 @@ body.dark {
     border-radius: 10px;
 }
 
-#days .icon:hover + .caption {
+.days .icon:hover + .caption {
     display: block;
 }
 
